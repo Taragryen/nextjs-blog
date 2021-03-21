@@ -38,6 +38,15 @@ export default function Home({ allPostsData }) {
               </small>
             </li>
           ))}
+          <li className={utilStyles.listItem} key="braft-editor">
+            <Link href={`/posts/braft-editor`}>
+              <a>braft-editor</a>
+            </Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString="2021-03-21" />
+            </small>
+          </li>
         </ul>
       </section>
     </Layout>
